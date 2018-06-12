@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "52.40.93.219",
+  "port": "22",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "watch": [],
+  "transport": "scp",
+  "target": "/var/www/paradisebird.co/public_html",
+  "username": "ubuntu",
+  "keyfile": "/Users/stub/key.pem"
+}

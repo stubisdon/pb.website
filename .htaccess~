@@ -1,0 +1,18 @@
+RewriteEngine on
+DirectoryIndex index.php
+RewriteRule ^request$ request.html [NC]
+RewriteRule ^question$ question.html [NC]
+
+RewriteRule ^portfolio$ http://paradisebird.co/?utm_source=shapr&utm_medium=link&utm_campaign=direct_sent
+RewriteRule ^twitter$ http://paradisebird.co/?utm_source=twitter&utm_medium=link_bio
+RewriteRule ^creative$ http://paradisebird.co/?utm_source=shapr&utm_medium=ian_direct
+RewriteRule ^email$ http://paradisebird.co/?utm_source=email&utm_medium=outbound_emails
+RewriteRule ^blog/how-to-make-a-perfect-commercial-video/$ http://paradisebird.co/blog/post.php?id=1
+RewriteRule ^reel& http://paradisebird.co/work/project.php?id=25?utm_source=manual&utm_medium=link
+
+Redirect /how_to_set_up_a_calendar.html https://support.google.com/calendar/answer/37083?hl=en
+
+## php_flag display_startup_errors on
+## php_flag display_errors on
+## php_flag html_errors on
+## php_flag  log_errors on 

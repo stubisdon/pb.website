@@ -1,0 +1,6 @@
+RewriteEngine on
+DirectoryIndex index.html
+RewriteRule ^request$ request.html [NC]
+RewriteRule ^question$ question.html [NC]
+RewriteRule ^myass$ index.html?utm_source=myass [NC,QSA]
+Redirect 301 /inde
